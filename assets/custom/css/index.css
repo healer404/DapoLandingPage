@@ -1,0 +1,143 @@
+.test{
+    border: 1px solid white;
+}
+body{
+    overflow-x: hidden;
+}
+.bg-snow{
+    background-color: snow !important;
+}
+.text-dapo{
+    color:green;
+}
+.home-dapo{
+    height: 89vh;
+}
+
+.home-dapo-screener{
+    background: rgba(0,195,0, 0.5);
+    height: 89vh;
+}
+
+.bg-dapo{
+    background-image: url("./../img/bg-mosquito.png");
+    background-size: cover;
+}
+
+.text-snow{
+    color: snow !important;
+}
+.dapo-text-header{
+    font-size: 2.1rem;
+    font-weight: bolder;
+}
+
+.dapo-content{
+    margin-top: 14%;
+}
+.dapo-text-subheader{
+    font-size: 1.2rem;
+}
+.btn-dapo{
+    color: green;
+    background: snow;
+    padding: 10px 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+.btn-dapo:hover, .btn-dapo:focus{
+    text-decoration: none;
+    color: snow;
+    background: green;
+    border: 2px solid snow;
+    transition: 0.6s;
+}
+.btn-know-more{
+    color: snow;
+    background: none;
+    padding: 10px 15px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 2px solid snow;
+}
+.btn-know-more:hover, .btn-know-more:focus{
+    text-decoration: none;
+    color: green;
+    background: snow;
+    border: 2px solid green;
+    transition: 0.6s;
+}
+.credit-to{
+    background: rgba(0,195,0,0.4);
+}
+.credit-to a:hover, .credit-to a:focus{
+    text-decoration: none;
+}
+.card-know-more:hover, .card-know-more:focus{
+    box-shadow: 3px 3px rgba(0,195,0, 0.8);
+    transition: 0.6s;
+}
+.bg-dapo-divider{
+    background: linear-gradient(to right, darkgreen, green, lightgreen, snow);
+}
+.download-text-header{
+    color: green;
+    font-weight: bolder;
+    font-size: 2.7rem;
+}
+.download-contaier{
+    background: linear-gradient(to top, darkgreen, green, lightgreen);
+    border: 3px groove green;
+    margin-bottom: 20px;
+}
+.download-carousel{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.download-container:hover, .download-container:focus{
+    box-shadow: 5px 5px rgba(0,200,0,0.7);
+    transition: 0.6s;
+}
+.download-header{
+    color: snow;
+    font-size: 2.0rem;
+    font-weight: bolder;
+    padding: 10px;
+}
+.download-content{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.download-btn{
+    color: green;
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+.download-btn:hover, .download-btn:focus{
+    text-decoration: none;
+}
+.bg-lightgreen{
+    background: lightgreen;
+}
+.bg-green{
+    background: darkgreen;
+}
+.dapo-footer-links a{
+    text-decoration: none;
+    color: snow;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+.dapo-footer-links a:hover, .dapo-footer-links a:focus{
+    text-decoration: none;
+    color: green;
+    background: snow;
+    transition: 0.6s;
+}
+
+.footer-support-header, .footer-contact-header{
+    font-size: 2rem;
+    font-weight: bolder;
+}
